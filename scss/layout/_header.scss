@@ -1,0 +1,46 @@
+@media only screen and (max-width: 576px){
+    header{
+        margin: 0;
+    }
+    #header__imagen{
+        background-image: url(../images/576_header.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    #header__logo{
+        background-image: url(../images/576_logo.png);
+        height: 135px;
+        width: 208px;
+        position:relative;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #header__logo:hover{
+        transform: scale(1.05);
+    }
+
+}
+
+@media only screen and (min-width: 577px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (min-width: 1200px){
+
+}
