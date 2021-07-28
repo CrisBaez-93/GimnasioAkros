@@ -191,6 +191,43 @@
         background-image: url(../images/576_torneo4.png);
     }
 
+    //////////      HORARIOS.HTML      //////////
+
+    table.tablaHorarios {
+        border: 3px solid #694D75;
+        background-color: #373737;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        border-collapse: collapse;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+      }
+      table.tablaHorarios td, table.tablaHorarios th {
+        border: 1px solid #4A4A4A;
+        padding: 3px 2px;
+      }
+      table.tablaHorarios tbody td {
+        font-size: $fuente_texto_size;
+        color: #EAEAEA;
+      }
+      table.tablaHorarios tr:nth-child(even) {
+        background: #5E5E5E;
+      }
+      table.tablaHorarios thead {
+        background: #694D75;
+        border-bottom: 3px solid #694D75;
+      }
+      table.tablaHorarios thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #E6E6E6;
+        text-align: center;
+        border-left: 2px solid #373737;
+      }
+      table.tablaHorarios thead th:first-child {
+        border-left: none;
+      }
+
 }
 
 @media only screen and (min-width: 577px){
