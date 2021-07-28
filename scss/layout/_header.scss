@@ -30,17 +30,124 @@
 }
 
 @media only screen and (min-width: 577px){
+    header{
+        margin: 0;
+    }
+    #header__imagen{
+        background-image: url(../images/577_header.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 223px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        overflow: hidden;
+        margin: 0;
+    }
 
+    #header__logo{
+        background-image: url(../images/577_logo.png);
+        height: 151px;
+        width: 233px;
+        position:relative;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #header__logo:hover{
+        transform: scale(1.05);
+    }
 }
 
 @media only screen and (min-width: 768px){
+    header{
+        margin: 0;
+    }
+    #header__imagen{
+        background-image: url(../images/768_header.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        overflow: hidden;
+        margin: 0;
+    }
 
+    #header__logo{
+        background-image: url(../images/768_logo.png);
+        height: 194px;
+        width: 300px;
+        position:relative;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #header__logo:hover{
+        transform: scale(1.05);
+    }
 }
+
 
 @media only screen and (min-width: 992px){
+    header{
+        margin: 0;
+    }
+    #header__imagen{
+        background-image: url(../images/577_header.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 223px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        overflow: hidden;
+        margin: 0;
+    }
 
+    #header__logo{
+        background-image: url(../images/577_logo.png);
+        height: 151px;
+        width: 233px;
+        position:relative;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #header__logo:hover{
+        transform: scale(1.05);
+    }
 }
+
 
 @media only screen and (min-width: 1200px){
+    header{
+        margin: 0;
+    }
+    #header__imagen{
+        background-image: url(../images/577_header.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 223px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        overflow: hidden;
+        margin: 0;
+    }
 
+    #header__logo{
+        background-image: url(../images/577_logo.png);
+        height: 151px;
+        width: 233px;
+        position:relative;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #header__logo:hover{
+        transform: scale(1.05);
+    }
 }
+

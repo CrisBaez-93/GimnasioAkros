@@ -27,15 +27,87 @@
 }
 
 @media only screen and (min-width: 577px){
-
+    footer{
+        color: white;
+        background-color: #694d75;
+        width: 100%;
+        height: 50px;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        bottom: 0;
+    }
+    
+    footer p{
+        background-color: #694d75;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 200;
+        margin-right: 2%;
+    }
+    
+    #footer__contacto{
+        margin-left: 15px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 768px){
-
+    footer{
+        color: white;
+        background-color: #694d75;
+        width: 100%;
+        height: 50px;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        bottom: 0;
+    }
+    
+    footer p{
+        background-color: #694d75;
+        font-size: 1.46rem;
+        font-style: italic;
+        font-weight: 200;
+        margin-right: 2%;
+    }
+    
+    #footer__contacto{
+        margin-left: 15px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 992px){
-
+    footer{
+        color: white;
+        background-color: #694d75;
+        width: 100%;
+        height: 50px;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        bottom: 0;
+    }
+    
+    footer p{
+        background-color: #694d75;
+        font-size: 1.46rem;
+        font-style: italic;
+        font-weight: 200;
+        margin-right: 2%;
+    }
+    
+    #footer__contacto{
+        margin-left: 15px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 1200px){
