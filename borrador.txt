@@ -1,0 +1,905 @@
+@media only screen and (max-width: 576px){
+    //////////      INDEX.HTML      //////////
+    #main__blanco{
+        background-color: white;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #main__nosotros__texto{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        height: 40%;
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+    }
+
+    #nosotros__titulo{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+        margin: 10px 10px 15px 10px;
+    }
+    
+    #nosotros__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+        margin-left: 10px; margin-right: 10px;
+    }
+
+    #main__nosotros__imagen{
+        background-image: url(../images/576_nosotros.png);
+        display: flex;
+        height: 40%;
+        width: 90%;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+    }
+    #main__nosotros__imagen2{
+        background-image: url(../images/577_nosotros.png);
+        display: flex;
+        height: 45%;
+        width: 42%;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        display: none;
+    }
+
+    #main__negro{
+        background-color: rgb(41, 41, 41);
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main__noticia{
+        background-color: rgb(19, 19, 19);
+        color: white;
+        width: 90%;
+        height: 30%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .main__noticia__titulo{
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+        margin-left: 10px; margin-top: 10px;
+    }
+
+    .main__noticia__cuerpo{
+        color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+        margin-left: 10px; margin-right: 10px;
+    }
+
+    //////////      PROFES.HTML      //////////
+
+    #main__blanco2{
+        background-color: white;
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .profe__div__texto{
+        width: 190%;
+        height: 90%;
+        margin-right: 10px;
+    }
+
+    .main__profe__cuadro{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        width: 90%;
+        height: 18%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main__profe__cuadro:hover{
+        transform: scale(1.05);
+    }
+    
+    .foto__profe{
+        background-image: url(../images/576_profe_1.png);
+        width: 75%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .foto__profe2{
+        @extend .foto__profe;
+        background-image: url(../images/576_profe_2.png);
+    }
+
+    .foto__profe3{
+        @extend .foto__profe;
+        background-image: url(../images/576_profe_3.png);
+    }
+
+    .foto__profe4{
+        @extend .foto__profe;
+        background-image: url(../images/576_profe_4.png);
+    }
+
+    .foto__profe5{
+        @extend .foto__profe;
+        background-image: url(../images/576_profe_5.png);
+    }
+
+    .profe__nombre{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+    }
+    
+    .profe__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+    }
+
+    //////////      TORNEOS.HTML      //////////
+
+    .main__torneo__cuadro{
+        @extend .main__profe__cuadro;
+        height: 20%;
+        overflow: hidden;
+    }
+
+    .torneo__div__texto{
+        width: 190%;
+        height: 90%;
+        margin-right: 10px;
+    }
+
+    .torneo__nombre{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+    }
+    
+    .torneo__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+    } 
+
+    .imagen__torneo{
+        background-image: url(../images/576_torneo1.png);
+        width: 75%;
+        height: 100%;
+        margin-right: 8px;
+    }
+
+    .imagen__torneo2{
+        @extend .imagen__torneo;
+        background-image: url(../images/576_torneo2.png);
+    }
+
+    .imagen__torneo3{
+        @extend .imagen__torneo;
+        background-image: url(../images/576_torneo3.png);
+    }
+
+    .imagen__torneo4{
+        @extend .imagen__torneo;
+        background-image: url(../images/576_torneo4.png);
+    }
+
+    //////////      HORARIOS.HTML      //////////
+
+    table.tablaHorarios {
+        border: 3px solid #694D75;
+        background-color: #373737;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        border-collapse: collapse;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+      }
+      table.tablaHorarios td, table.tablaHorarios th {
+        border: 1px solid #4A4A4A;
+        padding: 3px 2px;
+      }
+      table.tablaHorarios tbody td {
+        font-size: $fuente_texto_size;
+        color: #EAEAEA;
+      }
+      table.tablaHorarios tr:nth-child(even) {
+        background: #5E5E5E;
+      }
+      table.tablaHorarios thead {
+        background: #694D75;
+        border-bottom: 3px solid #694D75;
+      }
+      table.tablaHorarios thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #E6E6E6;
+        text-align: center;
+        border-left: 2px solid #373737;
+      }
+      table.tablaHorarios thead th:first-child {
+        border-left: none;
+      }
+
+}
+
+@media only screen and (min-width: 577px){
+        //////////      INDEX.HTML      //////////
+    #main__blanco{
+        background-color: white;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #main__nosotros__texto{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        height: 40%;
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+    }
+
+    #nosotros__titulo{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+        margin: 10px 10px 15px 10px;
+    }
+    
+    #nosotros__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+        margin-left: 10px; margin-right: 10px;
+    }
+
+    #main__nosotros__imagen{
+        background-image: url(../images/577_nosotros.png);
+        display: flex;
+        height: 40%;
+        width: 90%;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+    }
+
+    #main__nosotros__imagen2{
+        background-image: url(../images/577_nosotros.png);
+        display: flex;
+        height: 45%;
+        width: 42%;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        display: none;
+    }
+
+    #main__negro{
+        background-color: rgb(41, 41, 41);
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main__noticia{
+        background-color: rgb(19, 19, 19);
+        color: white;
+        width: 90%;
+        height: 30%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .main__noticia__titulo{
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+        margin-left: 10px; margin-top: 10px;
+    }
+
+    .main__noticia__cuerpo{
+        color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+        margin-left: 10px; margin-right: 10px;
+    }
+
+    //////////      PROFES.HTML      //////////
+
+    #main__blanco2{
+        background-color: white;
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .profe__div__texto{
+        width: 190%;
+        height: 90%;
+        margin-right: 10px;
+    }
+
+    .main__profe__cuadro{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        width: 90%;
+        height: 18%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main__profe__cuadro:hover{
+        transform: scale(1.05);
+    }
+    
+    .foto__profe{
+        background-image: url(../images/576_profe_1.png);
+        width: 55%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .foto__profe2{
+        background-image: url(../images/576_profe_2.png);
+        width: 55%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .foto__profe3{
+        background-image: url(../images/576_profe_3.png);
+        width: 55%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .foto__profe4{
+        background-image: url(../images/576_profe_4.png);
+        width: 55%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .foto__profe5{
+        background-image: url(../images/576_profe_5.png);
+        width: 55%;
+        height: 80%;
+        border-radius: 150px 150px 150px 150px;
+        margin: 8px;
+    }
+
+    .profe__nombre{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+    }
+    
+    .profe__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+    }
+
+    //////////      TORNEOS.HTML      //////////
+
+    .main__torneo__cuadro{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        width: 90%;
+        height: 20%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 20%;
+        overflow: hidden;
+    }
+    .torneo__div__texto{
+        width: 190%;
+        height: 90%;
+        margin-right: 10px;
+    }
+
+    .torneo__nombre{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size:$fuente_titulo_size;
+    }
+    
+    .torneo__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-weight: 300;
+        font-size:$fuente_texto_size;
+    } 
+    .imagen__torneo{
+        background-image: url(../images/577_torneo1.png);
+        width: 75%;
+        height: 100%;
+        margin-right: 8px;
+    }
+
+    .imagen__torneo2{
+        background-image: url(../images/577_torneo2.png);
+        width: 75%;
+        height: 100%;
+        margin-right: 8px;
+    }
+
+    .imagen__torneo3{
+        background-image: url(../images/577_torneo3.png);
+        width: 75%;
+        height: 100%;
+        margin-right: 8px;
+    }
+
+    .imagen__torneo4{
+        background-image: url(../images/577_torneo4.png);
+        width: 75%;
+        height: 100%;
+        margin-right: 8px;
+    }
+
+    //////////      HORARIOS.HTML      //////////
+
+    table.tablaHorarios {
+        border: 3px solid #694D75;
+        background-color: #373737;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        border-collapse: collapse;
+        box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+      }
+      table.tablaHorarios td, table.tablaHorarios th {
+        border: 1px solid #4A4A4A;
+        padding: 3px 2px;
+      }
+      table.tablaHorarios tbody td {
+        font-size: $fuente_texto_size;
+        color: #EAEAEA;
+      }
+      table.tablaHorarios tr:nth-child(even) {
+        background: #5E5E5E;
+      }
+      table.tablaHorarios thead {
+        background: #694D75;
+        border-bottom: 3px solid #694D75;
+      }
+      table.tablaHorarios thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #E6E6E6;
+        text-align: center;
+        border-left: 2px solid #373737;
+      }
+      table.tablaHorarios thead th:first-child {
+        border-left: none;
+      }
+
+}
+
+@media only screen and (min-width: 768px){
+        //////////      INDEX.HTML      //////////
+        #main__blanco{
+            background-color: white;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        #main__nosotros__texto{
+            background-color: white;
+            color: rgb(19, 19, 19);
+            height: 40%;
+            width: 90%;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        }
+    
+        #nosotros__titulo{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-style: italic;
+            font-weight: 700;
+            font-size:$fuente_titulo_size;
+            margin: 10px 10px 15px 10px;
+        }
+        
+        #nosotros__texto{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-weight: 300;
+            font-size:$fuente_texto_size;
+            margin-left: 10px; margin-right: 10px;
+        }
+    
+        #main__nosotros__imagen{
+            background-image: url(../images/768_nosotros.png);
+            display: flex;
+            height: 45%;
+            width: 42%;
+            overflow: hidden;
+            justify-content: center;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        }
+
+        #main__nosotros__imagen2{
+            background-image: url(../images/768_nosotros2.png);
+            display: flex;
+            height: 45%;
+            width: 42%;
+            overflow: hidden;
+            justify-content: center;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        }
+    
+        #main__negro{
+            background-color: rgb(41, 41, 41);
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        .main__noticia{
+            background-color: rgb(19, 19, 19);
+            color: white;
+            width: 90%;
+            height: 30%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    
+        .main__noticia__titulo{
+            color: white;
+            font-style: italic;
+            font-weight: 700;
+            font-size:$fuente_titulo_size;
+            margin-left: 10px; margin-top: 10px;
+        }
+    
+        .main__noticia__cuerpo{
+            color: white;
+            font-weight: 300;
+            font-size:$fuente_texto_size;
+            margin-left: 10px; margin-right: 10px;
+        }
+    
+        //////////      PROFES.HTML      //////////
+    
+        #main__blanco2{
+            background-color: white;
+            height: 1000px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        .profe__div__texto{
+            width: 90%;
+            height: 90%;
+            margin-right: 10px;            
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .main__profe__cuadro{
+            background-color: white;
+            color: rgb(19, 19, 19);
+            width: 30%;
+            height: 45%;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .main__profe__cuadro:hover{
+            transform: scale(1.05);
+        }
+        
+        .foto__profe{
+            background-image: url(../images/768_profe_1.png);
+            width: 68%;
+            height: 70%;
+            border-radius: 150px 150px 150px 150px;
+            margin: 8px;
+        }
+    
+        .foto__profe2{
+            background-image: url(../images/768_profe_2.png);
+            width: 68%;
+            height: 70%;
+            border-radius: 150px 150px 150px 150px;
+            margin: 8px;
+        }
+    
+        .foto__profe3{
+            background-image: url(../images/768_profe_3.png);
+            width: 68%;
+            height: 70%;
+            border-radius: 150px 150px 150px 150px;
+            margin: 8px;
+        }
+    
+        .foto__profe4{
+            background-image: url(../images/768_profe_4.png);
+            width: 68%;
+            height: 70%;
+            border-radius: 150px 150px 150px 150px;
+            margin: 8px;
+        }
+    
+        .foto__profe5{
+            background-image: url(../images/768_profe_5.png);
+            width: 68%;
+            height: 70%;
+            border-radius: 150px 150px 150px 150px;
+            margin: 8px;
+        }
+    
+        .profe__nombre{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-style: italic;
+            font-weight: 700;
+            font-size:$fuente_titulo_size;
+        }
+        
+        .profe__texto{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-weight: 300;
+            font-size:$fuente_texto_size;
+        }
+    
+        //////////      TORNEOS.HTML      //////////
+    
+        .main__torneo__cuadro{
+            background-color: white;
+            color: rgb(19, 19, 19);
+            width: 45%;
+            height: 45%;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            overflow: hidden;
+        }
+    
+        .torneo__div__texto{
+            width: 90%;
+            height: 60%;
+            margin: 0;
+        }
+
+        .torneo__nombre{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-style: italic;
+            font-weight: 700;
+            font-size:$fuente_titulo_size;
+        }
+        
+        .torneo__texto{
+            color: rgb(19, 19, 19);
+            background-color: white;
+            font-weight: 300;
+            font-size:$fuente_texto_size;
+        } 
+
+        .imagen__torneo{
+            background-image: url(../images/768_torneo1.png);
+            width: 100%;
+            height: 40%;
+            margin: 0;
+        }
+    
+        .imagen__torneo2{
+            background-image: url(../images/768_torneo2.png);
+            width: 100%;
+            height: 40%;
+            margin: 0;
+        }
+    
+        .imagen__torneo3{
+            background-image: url(../images/768_torneo3.png);
+            width: 100%;
+            height: 40%;
+            margin: 0;
+        }
+    
+        .imagen__torneo4{
+            background-image: url(../images/768_torneo4.png);
+            width: 100%;
+            height: 40%;
+            margin: 0;
+        }
+    
+        //////////      HORARIOS.HTML      //////////
+    
+        table.tablaHorarios {
+            border: 3px solid #694D75;
+            background-color: #373737;
+            width: 90%;
+            height: 90%;
+            text-align: center;
+            border-collapse: collapse;
+            box-shadow: 6px 6px 16px 0px rgba(0,0,0,0.54);
+          }
+          table.tablaHorarios td, table.tablaHorarios th {
+            border: 1px solid #4A4A4A;
+            padding: 3px 2px;
+          }
+          table.tablaHorarios tbody td {
+            font-size: $fuente_texto_size;
+            color: #EAEAEA;
+          }
+          table.tablaHorarios tr:nth-child(even) {
+            background: #5E5E5E;
+          }
+          table.tablaHorarios thead {
+            background: #694D75;
+            border-bottom: 3px solid #694D75;
+          }
+          table.tablaHorarios thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #E6E6E6;
+            text-align: center;
+            border-left: 2px solid #373737;
+          }
+          table.tablaHorarios thead th:first-child {
+            border-left: none;
+          }
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (min-width: 1200px){
+    #main__blanco{
+        background-color: white;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #main__nosotros__texto{
+        background-color: white;
+        color: rgb(19, 19, 19);
+        height: 500px;
+        width: 700px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 9px 10px 8px -7px rgba(0,0,0,0.44);
+        margin-right: 25px;
+    }
+    
+    #nosotros__titulo{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 35px;
+        margin: 10px 10px 35px 10px;
+    }
+    
+    #nosotros__texto{
+        color: rgb(19, 19, 19);
+        background-color: white;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 10px; margin-right: 10px;
+    }
+    
+    #main__nosotros__imagen{
+        display: flex;
+        height: 500px;
+        width: 500px;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 9px 10px 8px -7px rgba(0,0,0,0.44);
+    }
+    
+    #imagen__nosotros{
+        max-height: 100%;
+    }
+}
+
+b9795ec
