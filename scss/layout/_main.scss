@@ -18,6 +18,7 @@
         width: 90%;
         border-radius: 10px 10px 10px 10px;
         box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        overflow: auto
     }
 
     #nosotros__titulo{
@@ -184,6 +185,7 @@
         width: 190%;
         height: 90%;
         margin-right: 10px;
+        overflow: auto;
     }
 
     .torneo__nombre{
@@ -199,6 +201,7 @@
         background-color: white;
         font-weight: 300;
         font-size:$fuente_texto_size;
+        overflow: auto;
     } 
 
     .imagen__torneo{
@@ -347,6 +350,7 @@
         width: 90%;
         border-radius: 10px 10px 10px 10px;
         box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
+        overflow: auto
     }
 
     #nosotros__titulo{
@@ -533,7 +537,8 @@
     .torneo__div__texto{
         width: 190%;
         height: 90%;
-        margin-right: 10px;
+        margin-right: 10px;        
+        overflow: auto;
     }
 
     .torneo__nombre{
@@ -549,6 +554,7 @@
         background-color: white;
         font-weight: 300;
         font-size:$fuente_texto_size;
+        overflow: auto;
     } 
     .imagen__torneo{
         background-image: url(../images/577_torneo1.png);
@@ -1020,7 +1026,7 @@
         #main__nosotros__texto{
             background-color: white;
             color: rgb(19, 19, 19);
-            height: 40%;
+            height: 45%;
             width: 90%;
             border-radius: 10px 10px 10px 10px;
             box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.51);
